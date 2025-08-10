@@ -1,0 +1,7 @@
+C:\Users\Hideki\source\repos\ComDataExchange\ComDataExchange\bin\x86\Debug\ComDataExchange.dll
+C:\Users\Hideki\source\repos\ComDataExchange\ComDataExchange\bin\x86\Debug\ComDataExchange.pdb
+C:\Users\Hideki\source\repos\ComDataExchange\ComDataExchange\bin\x86\Debug\ComDataExchange.tlb
+C:\Users\Hideki\source\repos\ComDataExchange\ComDataExchange\obj\x86\Debug\ComDataExchange.csproj.AssemblyReference.cache
+C:\Users\Hideki\source\repos\ComDataExchange\ComDataExchange\obj\x86\Debug\ComDataExchange.csproj.CoreCompileInputs.cache
+C:\Users\Hideki\source\repos\ComDataExchange\ComDataExchange\obj\x86\Debug\ComDataExchange.dll
+C:\Users\Hideki\source\repos\ComDataExchange\ComDataExchange\obj\x86\Debug\ComDataExchange.pdb
