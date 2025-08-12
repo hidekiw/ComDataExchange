@@ -5,3 +5,11 @@ C:\Users\Hideki\source\repos\ComDataExchange\ComDataExchange\obj\x86\Debug\ComDa
 C:\Users\Hideki\source\repos\ComDataExchange\ComDataExchange\obj\x86\Debug\ComDataExchange.csproj.CoreCompileInputs.cache
 C:\Users\Hideki\source\repos\ComDataExchange\ComDataExchange\obj\x86\Debug\ComDataExchange.dll
 C:\Users\Hideki\source\repos\ComDataExchange\ComDataExchange\obj\x86\Debug\ComDataExchange.pdb
+D:\git\ComDataExchange\ComDataExchange\obj\x86\Debug\ComDataExchange.csproj.AssemblyReference.cache
+D:\git\ComDataExchange\ComDataExchange\bin\x86\Debug\ComDataExchange.dll
+D:\git\ComDataExchange\ComDataExchange\obj\x86\Debug\ComDataExchange.csproj.CoreCompileInputs.cache
+D:\git\ComDataExchange\ComDataExchange\bin\x86\Debug\FujiokaASK400.dll
+D:\git\ComDataExchange\ComDataExchange\bin\x86\Debug\FujiokaASK400.pdb
+D:\git\ComDataExchange\ComDataExchange\bin\x86\Debug\FujiokaASK400.tlb
+D:\git\ComDataExchange\ComDataExchange\obj\x86\Debug\FujiokaASK400.dll
+D:\git\ComDataExchange\ComDataExchange\obj\x86\Debug\FujiokaASK400.pdb
