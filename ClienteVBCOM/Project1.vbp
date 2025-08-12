@@ -1,6 +1,6 @@
 Type=Exe
-Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\Windows\SysWOW64\stdole2.tlb#OLE Automation
-Reference=*\G{861067CC-962C-4048-B59E-E73E05BF38F8}#1.0#0#..\..\Users\Hideki\source\repos\ComDataExchange\ComDataExchange\bin\x86\Debug\ComDataExchange.tlb#ComDataExchange
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\..\..\..\Windows\SysWOW64\stdole2.tlb#OLE Automation
+Reference=*\G{861067CC-962C-4048-B59E-E73E05BF38F8}#1.0#0#..\ComDataExchange\bin\x86\Debug\ComDataExchange.tlb#ComDataExchange
 Form=Form1.frm
 IconForm="Form1"
 Startup="Form1"
