@@ -125,23 +125,24 @@ Attribute VB_Exposed = False
 Private comObj As Object
 
 Private Sub Form_Load()
-    ' Inicializar o componente COM do C#
+' Inicializar o componente COM do C#
     On Error GoTo ErrorHandler
-    
-    Set comObj = CreateObject("MyApp.DataExchange")
+
+    Set comObj = CreateObject("Fujioka.ASK400")
     txtResult.Text = "Componente COM inicializado com sucesso!" & vbCrLf
+    MsgBox comObj.Autor()
     Exit Sub
-    
+
 ErrorHandler:
     MsgBox "Erro ao inicializar componente COM: " & Err.Description, vbCritical
-    txtResult.Text = "ERRO: Componente COM n√£o encontrado. Certifique-se de que o componente C# foi registrado."
+    txtResult.Text = "ERRO: Componente COM n„o encontrado. Certifique-se de que o componente C# foi registrado."
 End Sub
 
 Private Sub btnGetMessage_Click()
     On Error GoTo ErrorHandler
     
     If comObj Is Nothing Then
-        MsgBox "Componente COM n√£o inicializado!", vbExclamation
+        MsgBox "Componente COM n„o inicializado!", vbExclamation
         Exit Sub
     End If
     
@@ -159,7 +160,7 @@ Private Sub btnSetMessage_Click()
     On Error GoTo ErrorHandler
     
     If comObj Is Nothing Then
-        MsgBox "Componente COM n√£o inicializado!", vbExclamation
+        MsgBox "Componente COM n„o inicializado!", vbExclamation
         Exit Sub
     End If
     
@@ -175,7 +176,7 @@ Private Sub btnCalculate_Click()
     On Error GoTo ErrorHandler
     
     If comObj Is Nothing Then
-        MsgBox "Componente COM n√£o inicializado!", vbExclamation
+        MsgBox "Componente COM n„o inicializado!", vbExclamation
         Exit Sub
     End If
     
@@ -185,7 +186,7 @@ Private Sub btnCalculate_Click()
     
     result = comObj.CalculateSum(num1, num2)
     
-    txtResult.Text = txtResult.Text & "C√°lculo: " & num1 & " + " & num2 & " = " & result & vbCrLf
+    txtResult.Text = txtResult.Text & "C·lculo: " & num1 & " + " & num2 & " = " & result & vbCrLf
     Exit Sub
     
 ErrorHandler:
@@ -196,7 +197,7 @@ Private Sub btnProcessData_Click()
     On Error GoTo ErrorHandler
     
     If comObj Is Nothing Then
-        MsgBox "Componente COM n√£o inicializado!", vbExclamation
+        MsgBox "Componente COM n„o inicializado!", vbExclamation
         Exit Sub
     End If
     
